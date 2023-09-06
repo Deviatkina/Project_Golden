@@ -1,10 +1,51 @@
 /*Variable*/
-$font-family: 'Montserrat', sans-serif;
-$font-family: 'Nunito Sans', sans-serif;
-$font-family: 'Roboto Serif', serif;
-$font-family: 'Roboto Slab', serif;
+$font-family-1: 'Pacifico', cursive;
+$font-family-2: 'Montserrat', sans-serif;
+$font-family-3: 'Nunito Sans', sans-serif;
+$font-family-4: 'Roboto Slab', serif;
+$brand-color: #fed136;
+$font-color-light: #ffffff;
+$font-color-dark: rgb(11, 11, 11);
 
 /*Global*/
 *, ::after, ::before {
     box-sizing: border-box;
+}
+/*Header*/
+header {
+    background-image: url('https://fashionbyteresa.com/cdn/shop/products/H25d74c69bd8e4d29b2df6ab74a6351edZ_5000x.jpg?v=1628434129');
+    background-size: cover;
+}
+.navbar .navbar-brand {
+    color:$brand-color;
+    font-size: 26px ;
+    font-family:$font-family-1; 
+}
+.nav-link {
+    font-size: 26px;
+    padding: 0 20px; 
+    margin: 0 20px;
+}
+.splash {
+    text-align: center;
+    color: $font-color-light;
+    padding: 15% 0;
+}
+.splash h3{
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+.splash h1{
+    font-size: 75px;
+    padding-bottom: 5%;
+    text-shadow: 1px 1px 2px black;
+}
+.splash-button {
+    background-color: $brand-color; 
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: $font-color-light;
+    font-family: $font-family-4;
 }
