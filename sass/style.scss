@@ -13,8 +13,8 @@ $font-color-dark: rgb(11, 11, 11);
 }
 /*Header*/
 header {
-    background-image: url('https://fashionbyteresa.com/cdn/shop/products/H25d74c69bd8e4d29b2df6ab74a6351edZ_5000x.jpg?v=1628434129');
-    background-size: cover;
+    background-image: url('../images/Background_Image.png');
+    max-height: 724px;
 }
 .navbar .navbar-brand {
     color:$brand-color;
@@ -29,11 +29,11 @@ header {
 .splash {
     text-align: center;
     color: $font-color-light;
-    padding: 15% 0;
+    padding: 45px;
 }
 .splash h3{
     font-size: 40px;
-    padding-bottom: 5%;
+    padding-bottom: 5% ;
 }
 .splash h1{
     font-size: 75px;
