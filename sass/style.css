@@ -27,7 +27,8 @@ header {
 .navbar-dark .navbar-brand {
   color: #fed136;
   font-family: "Pacifico", cursive;
-  font-size: 26px;
+  font-size: 36px;
+  margin-left: 10%;
 }
 
 .nav-item {
@@ -98,6 +99,7 @@ header {
   padding: 10px;
 }
 
+/*Portfolio*/
 /*Footer*/
 .foot-container {
   bottom: 96px;
@@ -127,7 +129,12 @@ header {
 
 .foot-container h4 {
   font-size: 14px;
-  text-align: left;
   color: grey;
-  left: 10%;
+}
+
+@media (max-width: 768px) {
+  .services .row {
+    flex-direction: column;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
