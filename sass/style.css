@@ -12,7 +12,6 @@ body {
 
 .container {
   max-width: 1140px;
-  padding: 60px 20px;
   margin: auto;
 }
 
@@ -100,12 +99,38 @@ header {
 }
 
 /*Portfolio*/
+.portfolio {
+  padding: 5% 0;
+  background-color: rgb(233, 231, 231);
+}
+
+.port-inner {
+  text-align: center;
+  padding: 60px;
+}
+
+.portfolio h2 {
+  font-size: 72px;
+}
+
+.portfolio h4 {
+  color: grey;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.portfolio .card {
+  padding: 0 20px;
+}
+
 /*Footer*/
 .foot-container {
   bottom: 96px;
   width: 100%;
   height: 60px;
   text-align: center;
+  margin: 20px;
 }
 
 .foot-container li {
