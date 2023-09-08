@@ -8,7 +8,19 @@ $font-color-light: #ffffff;
 $font-color-dark: rgb(11, 11, 11);
 
 /*Global*/
-
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: $font-family-2; 
+}
+.container{
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: auto;
+}
 /*Header*/
 header {
     background-image: url('../images/Background_Image.png');
@@ -16,4 +28,31 @@ header {
     height: 729px;
     background-size: cover;
 }
+.navbar-dark .navbar-brand{
+    color:$brand-color;
+    font-family: $font-family-1;
+    font-size: 26px;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.splash {
+    text-align:center;
+    padding: 15%;
 
+}
+.splash h3, h1{
+    color: $font-color-light;
+    text-shadow: 2px 2px gray; 
+    padding: 10px 0;
+}
+.splash h3{
+    font-family: $font-family-3;
+}
+.splash-button {
+    background-color: $brand-color;
+    color: $font-color-light;
+    border: 2px solid grey;
+    border-radius: 5px; 
+    padding: 10px 15px;
+}
