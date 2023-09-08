@@ -102,6 +102,7 @@ header {
 .portfolio {
   padding: 5% 0;
   background-color: rgb(233, 231, 231);
+  text-align: center;
 }
 
 .port-inner {
@@ -120,8 +121,8 @@ header {
   margin-bottom: 25px;
 }
 
-.portfolio .card {
-  padding: 0 20px;
+.row .card {
+  margin: 20px;
 }
 
 /*Footer*/
@@ -161,5 +162,12 @@ header {
   .services .row {
     flex-direction: column;
     width: 100%;
+  }
+  .services-title, .port-inner {
+    padding-left: 5%;
+  }
+  .port-inner h2 {
+    text-align: left;
+    font-size: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
